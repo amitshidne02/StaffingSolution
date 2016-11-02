@@ -1,2 +1,0 @@
-# StaffingSolution
-Sagarsoft Staffing Solution
