@@ -1,0 +1,222 @@
+﻿
+@{
+    ViewBag.Title = "Add Payment";
+}
+
+
+<div class="inner-block">
+    <div class="blank">
+         <div class="row">
+            <div class="col-md-6"> <h2>Add Payment</h2> </div>
+            <div class="col-md-6"><span class="pull-right">
+				            
+				        </span></div>
+         </div>
+       
+        <div class="blankpage-main">
+             <form class="form-horizontal">
+                    <fieldset>
+
+                     <!-- Division-->
+                     <div class="form-group">
+                      <label class="col-md-3 control-label" for="selectbasic">Division</label>
+                     <a href="#" title="" class="btn btn-default" data-toggle="dropdown" aria-expanded="false">
+				               Division 
+				                <i class="fa fa-chevron-down icon_8"></i>
+				            <div class="ripple-wrapper"></div></a>
+				            <ul class="dropdown-menu float-right">
+				                <li>
+				                    <a href="#" title="">
+				                    <input type="checkbox"/>  Sagarsoft Inc
+				                    </a>
+				                </li>
+				                <li>
+				                    <a href="#" title="">
+				                    <input type="checkbox"/>   Amicus Systems
+				                    </a>
+				                </li>
+				                <li>
+				                    <a href="#" title="">
+				                    <input type="checkbox"/>   Infoway
+				                    </a>
+				                </li>
+				            </ul>
+                      </div>
+                       
+                    
+                    <!-- Select Basic -->
+                    <div class="form-group">
+                      <label class="col-md-3 control-label" for="selectbasic">Select Expense Type</label>
+                      <div class="col-md-9">
+                        <select id="selectbasic" name="selectbasic" class="form-control">
+                          <option value="1">Option one</option>
+                          <option value="2">Option two</option>
+                          <option value="3">Option three</option>
+                        </select>
+                      </div>
+                    </div>
+
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-3 control-label" for="textinput">Text Input</label>  
+                      <div class="col-md-3">
+  	                    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+                      </div>
+
+
+                    <!-- Multiple Radios (inline) -->
+
+                      <label class="col-md-3 control-label" for="radios">Inline Radios</label>
+                      <div class="col-md-3"> 
+                        <label class="radio-inline" for="radios-0">
+                          <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                          Yes
+                        </label> 
+                        <label class="radio-inline" for="radios-1">
+                          <input type="radio" name="radios" id="radios-1" value="2">
+                          No
+                        </label> 
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-3 control-label" for="textinput">Text Input</label>  
+                      <div class="col-md-3">
+  	                    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+                      </div>
+                      <label class="col-md-3 control-label" for="textinput">Text Input</label>  
+                      <div class="col-md-3">
+  	                    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+                      </div>
+                     </div>
+  
+                      <!-- Textarea -->
+                    <div class="form-group">
+                      <label class="col-md-3 control-label" for="textarea">Text Area</label>
+                      <div class="col-md-9">                     
+                        <textarea class="form-control" id="textarea" name="textarea">default text</textarea>
+                      </div>
+                    </div>
+
+                    <!-- Button (Double) -->
+                    <div class="form-group">
+                      <label class="col-md-3 control-label" for="button1id"></label>
+                      <div class="col-md-8">
+                        <button id="button1id" name="button1id" class="btn btn-success">Ok</button>
+                        <button id="button2id" name="button2id" class="btn btn-danger">Cancel</button>
+                      </div>
+                    </div>
+
+                    </fieldset>
+                    </form>
+
+        </div>
+        </div>
+    </div>
+        
+<script>
+
+
+    $(document).ready(function () {
+        var data = [
+      [
+          "Accomodation",
+          "1500$",
+          "05-Oct-2015",
+          "Paid for Hotel Stay",
+          "Amit,Veeresh"
+      ],
+      [
+            "Cab",
+          "50$",
+          "05-Oct-2015",
+          "Paid for Cab to Hotel",
+           "Paul"
+      ],
+      [
+          "Food",
+          "150$",
+          "06-Oct-2015",
+          "Paid for Trip to Hartford",
+           "Mahesh"
+      ],
+      [
+          "Accomodation",
+          "1500$",
+          "05-Oct-2015",
+          "Paid for Hotel Stay",
+          "Amit,Veeresh"
+      ],
+      [
+            "Cab",
+          "50$",
+          "05-Oct-2015",
+          "Paid for Cab to Hotel",
+           "Paul"
+      ],
+      [
+          "Food",
+          "150$",
+          "06-Oct-2015",
+          "Paid for Trip to Hartford",
+           "Mahesh"
+      ],
+      [
+          "Accomodation",
+          "1500$",
+          "05-Oct-2015",
+          "Paid for Hotel Stay",
+          "Amit,Veeresh"
+      ],
+      [
+            "Cab",
+          "50$",
+          "05-Oct-2015",
+          "Paid for Cab to Hotel",
+           "Paul"
+      ],
+      [
+          "Food",
+          "150$",
+          "06-Oct-2015",
+          "Paid for Trip to Hartford",
+           "Mahesh"
+      ],
+      [
+          "Accomodation",
+          "1500$",
+          "05-Oct-2015",
+          "Paid for Hotel Stay",
+          "Amit,Veeresh"
+      ],
+      [
+            "Cab",
+          "50$",
+          "05-Oct-2015",
+          "Paid for Cab to Hotel",
+           "Paul"
+      ],
+      [
+          "Food",
+          "150$",
+          "06-Oct-2015",
+          "Paid for Trip to Hartford",
+           "Mahesh"
+      ]
+        ]
+
+        $('#tblPayments').DataTable({
+            data: data,
+            searching: false,
+            select: true,
+            "bInfo": false,
+            responsive: true,
+            scrollY: 400,
+            scollX: true,
+            paging: true
+        });
+
+    });
+
+</script>
+            
