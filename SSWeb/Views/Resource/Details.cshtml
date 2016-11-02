@@ -1,0 +1,279 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="inner-block">
+    <div class="blank">
+    	 <div class="row">
+            <div class="col-md-6">  <div class="user_img"><img src="../images/p5.png" alt=""></div> <h2>Ashok Sharma</h2> </div>
+         </div>
+        
+    	<div class="blankpage-main">
+    	
+          <div class="horizontal-tab">
+              <ul class="nav nav-tabs">
+                <li class=""><a href="#tabInfo" data-toggle="tab" aria-expanded="true">Info</a></li>
+                <li class=""><a href="#tabProjects" data-toggle="tab" aria-expanded="false">Allocation</a></li>
+                <li class=""><a href="#tabResources" data-toggle="tab" aria-expanded="false">Timesheet</a></li>
+                  <li class=""><a href="#tabPayments" data-toggle="tab" aria-expanded="false">Payments</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active" id="tabInfo">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <form class="form-horizontal">
+<fieldset>
+    <!-- Text input-->
+    <div class="form-group">
+       <label class="col-md-2 control-label" for="txtFirstName">First Name</label>  
+      <div class="col-md-4">
+        <input id="txtFirstName" name="txtFirstName" type="text" placeholder="First Name" class="form-control input-md" required="">
+      </div>
+      <label class="col-md-2 control-label" for="txtFirstName">Middle Name</label>  
+        <div class="col-md-4"> 
+        <input id="txtMiddleName" name="txtFirstName" type="text" placeholder="Middle Name" class="form-control input-md" required="">
+      </div>
+    </div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-2 control-label" for="txtLastName">Last Name</label>  
+  <div class="col-md-4">
+        <input id="txtLastName" name="txtLastName" type="text" placeholder="Last Name" class="form-control input-md" required="">
+  </div>
+</div>
+
+    <!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-2 control-label" for="fileUploadResume">Resume</label>
+  <div class="col-md-4">
+    <input id="fileUploadResume" name="fileUploadResume" class="input-file" type="file">
+  </div>
+</div>
+    <div class="form-group">
+  <label class="col-md-2 control-label" for="txtLastName">Visa Type</label>  
+  <div class="col-md-4">
+         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          Select <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu">
+             <li><a href="#">H1</a></li>
+              <li><a href="#">B1</a></li>
+              <li><a href="#">F1</a></li>
+        </ul>
+  </div>
+</div>
+
+    <div class="form-group">
+                <div class="col-md-3">
+                    <div class="label-wrapper"><label class="control-label" for="Id" title="">Order ID</label><div class="ico-help" title="The unique ID of this order."><i class="fa fa-question-circle"></i></div></div>
+                </div>
+                <div class="col-md-9">
+                    <div class="form-text-row">5</div>
+                </div>
+            </div>
+</fieldset>
+</form>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tabProjects">
+                  <div class="row">
+                    <div class="col-md-12">
+                     <table class="table tab-border">
+	                    <tbody>
+	                          <tr>
+	                            <th class="hidden-xs">
+	                                 Division
+	                            </th>
+                                  <th>
+                                      <div class="dropdown">
+				                            <a href="#" title="" class="" data-toggle="dropdown" aria-expanded="false">
+				                                Client <i class="fa fa-filter icon_8"></i>
+				                                <i class="fa fa-chevron-down icon_8"></i>
+				                            <div class="ripple-wrapper"></div></a>
+				                            <ul class="dropdown-menu float-right">
+				                                 <li>
+				                                    <a href="#" title="">
+				                                    <input type="checkbox"/>  Core Access Group
+				                                    </a>
+				                                </li>
+				                                <li>
+				                                    <a href="#" title="">
+				                                    <input type="checkbox"/>   Point 72
+				                                    </a>
+				                                </li>
+				                                <li>
+				                                    <a href="#" title="">
+				                                    <input type="checkbox"/>   Hartford Insurance
+				                                    </a>
+				                                </li>
+              
+				                            </ul>
+				                        </div>
+	                            </th>
+	                            <th>
+	                                Project
+	                            </th>
+	                            
+	                            <th>
+                                    HourlyRate
+	                            </th>
+                                   <th>
+                                    From
+	                            </th>
+                                   <th>
+                                    To
+	                            </th>
+	                        </tr>
+                            <tr>
+	                            <td>
+	                            	Sagarsoft Inc
+	                            </td>
+	                            <td>
+	                                PRCM
+	                            </td>
+	                            <td>
+	                                CTM
+	                            </td>
+	                            <td>
+	                                60$
+	                            </td>
+	                            <td> 5-Oct-2014
+	                            </td>
+	                            <td>
+	                               02-Mar-2016
+	                            </td>
+	                        </tr>
+	                        <tr>
+	                            <td>
+	                            	Sagarsoft Inc
+	                            </td>
+	                            <td>
+	                                Point 72
+	                            </td>
+	                            <td>
+	                                CTM
+	                            </td>
+	                            <td>
+	                                55$
+	                            </td>
+	                            <td> 2-Jan-2012
+	                            </td>
+	                            <td>
+	                               01-Oct-2014
+	                            </td>
+	                        </tr>
+	                         
+                            <tr>
+	                            <td>
+	                            	Sagarsoft Inc
+	                            </td>
+	                            <td>
+	                                PRCM
+	                            </td>
+	                            <td>
+	                                CTM
+	                            </td>
+	                            <td>
+	                                50$
+	                            </td>
+	                            <td> 5-Oct-2014
+	                            </td>
+	                            <td>
+	                               02-Mar-2016
+	                            </td>
+	                        </tr>
+	                        
+                             
+                             
+                                                                                              
+	                    </tbody>
+	                </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tabResources">
+                  <div class="row">
+                    <div class="col-md-12">
+                              @Html.Partial("Timesheet")
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tabPayments">
+                  <div class="row">
+                    <div class="col-md-12">
+                         <table id="tblPayments">
+                             <thead>
+                                      <tr>
+                            <th>Type</th>
+                              <th>Amount</th>
+                            <th>Date</th>
+                            <th>Details</tH>
+                            
+                            </tr>
+                             </thead>
+                            <tbody>
+                      
+                           @* <tr>
+                            <td>&nbsp;Accomodation</td>
+                            <td>1500</td>
+                            <td>25-Oct-2015&nbsp;</td>
+                            <td>Paid for Hotel stay in Hartford&nbsp;</td>
+                            </tr>
+                            <tr>
+                            <td>&nbsp;Cab</td>
+                            <td>50</td>
+                            <td>24-Oct-2015</td>
+                            <td>From Airport to Hotel</td>
+                            </tr>
+                            <tr>
+                            <td>&nbsp;Food</td>
+                            <td>150</td>
+                            <td>25-Oct-2015&nbsp;</td>
+                            <td>Paid on trip to Hartford&nbsp;</td>
+                            </tr>*@
+                            </tbody>
+</table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+    	</div>
+    </div>
+</div>
+<script>
+
+
+    $(document).ready(function () {
+        var data = [
+      [
+          "Accomodation",
+          "1500$",
+          "05-Oct-2015",
+          "Paid for Hotel Stay"
+      ],
+      [
+            "Cab",
+          "50$",
+          "05-Oct-2015",
+          "Paid for Cab to Hotel"
+      ],
+      [
+          "Food",
+          "150$",
+          "06-Oct-2015",
+          "Paid for Trip to Hartford"
+      ]
+        ]
+
+        $('#tblPayments').DataTable({
+            data: data,
+            searching: false,
+            select:false
+        });
+    });
+</script>
